@@ -31,7 +31,7 @@ def add(num1:int,num2:int)->int:
 
     return num1+num2
 
-def sub(num1:int,num2:int)->int:
+def multi(num1:int,num2:int)->int:
     """sub
 
     Args:
@@ -41,4 +41,4 @@ def sub(num1:int,num2:int)->int:
     Returns:
         int: returns sub of num1 and num2
     """
-    return num1-num2
+    return num1*num2
